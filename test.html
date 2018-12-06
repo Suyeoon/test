@@ -2,11 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>아톰 업데이트 </title>
+    <title>안녕하세요</title>
+    <script>
+    function change(){
+      var spanArray
+      = document.getElementsByTagName('span');
+      for(var i=0;i<spanArray.length; i++){
+        var span = spanArray[i];
+        span.style.color = 'lightblue';
+        span.style.fontsize = '40px';
+
+      }
+    }
+
+    </script>
+
   </head>
   <body>
- 나는 자랑스러운 태극기 앞에
- 조국과 민족의...
- <h1>종강이다!</h1>
+    <h2> 안녕하세요
+    <button onclick='change()' type="button" name="button">
+     누르세요</button>
+   </h3>  <hr><span style="color:red">저는  </span>
+
+     <span>스마트앱콘텐츠학과</span> <span> 1학년</span>  <span style="color:lightpink">  박수연입니다  </span>
+
+
   </body>
 </html>
